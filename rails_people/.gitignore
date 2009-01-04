@@ -1,0 +1,8 @@
+.DS_Store
+*/.DS_Store
+log/*.log
+tmp/**/*
+config/deploy.rb
+db/*.sqlite3
+doc/app/
+public/uploads/*
