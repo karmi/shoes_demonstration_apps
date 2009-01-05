@@ -1,3 +1,6 @@
+# Draw draggable letter on canvas
+# Instantiate with <tt>letter('a')</tt>
+# 
 class Shoes::Letter < Shoes::Widget
 
   def initialize(l)
