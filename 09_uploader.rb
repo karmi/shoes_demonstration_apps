@@ -39,7 +39,7 @@ Shoes.app :width => 600, :height => 350 do
     para( 'For Sinatra!', :stroke => "#999999", :margin => [15, 0, 0, 0]).displace(0, -8)
     background "rgb(66, 66, 66, 180)".."rgb(0, 0, 0, 0)",       :height => 0.5
     background "rgb(66, 66, 66, 100)".."rgb(255, 255, 255, 0)", :height => 20, :bottom => 0
-    image( 'assets/uploader.png' ).move(width-45, 25)
+    image( 'assets/uploader.png' ).move(width-45, 8)
   end
 
   stack :margin => [15, 20, 15, 15] do
