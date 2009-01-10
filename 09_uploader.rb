@@ -1,6 +1,7 @@
 require 'net/http'
 require 'uri'
 
+# Just a simple wrapper to <tt>Net::HTTP</tt>
 class Uploader
   URL = 'http://127.0.0.1:4567/'
   def self.post(file)
