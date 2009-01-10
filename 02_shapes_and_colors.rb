@@ -3,7 +3,7 @@
 
 Shoes.app :width => 600, :height => 400 do
 
-  background gradient('fff', lightblue)
+  background gradient('fff', red)
   border black, :strokewidth => 6
 
   fill crimson
@@ -15,7 +15,7 @@ Shoes.app :width => 600, :height => 400 do
        :width  => 100,
        :height => 200,
        :curve => 10,
-       :fill   => lightskyblue..white,
+       :fill   => blue..white,
        :stroke => cornflowerblue
   
   stroke rgb(82, 138, 150)

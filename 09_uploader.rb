@@ -25,7 +25,7 @@ Shoes.app :width => 600, :height => 350 do
       status.style(:weight =>'bold', :stroke => (response.code == '200' ? black : crimson) )
       @files_uploaded << path
       @progress_info.text = "#{@files_uploaded.size} of #{@files_total.size} uploaded"
-      @progress_bar.fraction = (@files_uploaded.size.to_f / @files_total.size.to_f)
+      @progress_bar.fraction = (  @files_uploaded.size.to_f / @files_total.size.to_f)
     end
   end
 

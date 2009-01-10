@@ -41,7 +41,7 @@ Shoes.app :width => 350, :height => 400 do
       post_data = ''
       @params.each { |key, value| post_data << "person[#{key}]" + '=' + CGI.escape(value.text) + '&' }
 
-      @d = download("http://localhost:3000/people",
+      @d = download("http://localhost:3000/people.xml",
                     :method => 'POST',
                     :body   => post_data) { |upload| @status.text  = 'Received: ' + upload.response.headers['Status'] }
       # ----------------------------------------------------------------------------------------------------------------

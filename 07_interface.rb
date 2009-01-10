@@ -12,7 +12,7 @@ Shoes.app :width => 350, :height => 400 do
 
   stack do
     background "#BE8"
-    subtitle "Interface in Shoes", :stroke => '#14190e', :margin_left => 13
+    subtitle "Interface in Shoes", :stroke => '#14190e', :margin => [5, 10, 20, 10]
   end
 
   @params = {}
